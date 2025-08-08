@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    height: 40px;
+    color: rgb(69, 64, 64);
+    margin: 30 10 30 10;
+    font-size: medium;
+    margin-top: 17px;
+}
+
+.box1 a {
+    text-decoration: none;
+    color: rgb(89, 87, 87);
+}
+
+.sign-button {
+    color: white;
+    background-color: #4285f4;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    height: 35px;
+    font-size: medium;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+.container2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.search-button {
+    background-color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border: 1px solid #ccc; 
+}
+
+.buttons button{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    margin-top: 25px;
+    font-size: large; 
+    color: rgb(110, 109, 109);
+    border: 1px solid #ccc;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+}
+
+
+.container3 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.container3 a {
+    color: rgb(89, 87, 87);
+    text-decoration: none;
+}
+
+
+
+.container3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
